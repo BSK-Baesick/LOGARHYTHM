@@ -2,6 +2,7 @@
 A Version Control Repository of "LOGARHYTHM"
 
 SUMMARY:
+
 Dive into a thrilling world of ARCADE as the RHYTHM starts to play the iconic songs of all times using BEATz to
 convey message to people through emotions. In LOGARHYTHM, you follow the storyline of a man and a woman who falls in love with each other 
 through music.
