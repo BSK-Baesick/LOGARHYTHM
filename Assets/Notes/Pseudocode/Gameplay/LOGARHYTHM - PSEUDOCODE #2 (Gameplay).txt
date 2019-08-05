@@ -1,0 +1,24 @@
+
+PSEUDOCODE NO. #2
+
+SUBJECT:
+
+Single Tap BEAT Game Logic
+
+PROBLEM TYPE:
+
+Gameplay
+
+
+
+v1.0 (PRIMARY CODE FUNCTION)
+
+THE GENERAL PROBLEM:
+
+Implementing the secondary core game loop feature
+
+THE SPECIFIC PROBLEM:
+
+1.) If the Single Tap BEAT gameObject has been Tap, then destroy the gameObject.
+
+2.) Go back to PSEUDOCODE No. #1, v1.0 (PRIMARY CODE FUNCTION), the specific problem item number 5.

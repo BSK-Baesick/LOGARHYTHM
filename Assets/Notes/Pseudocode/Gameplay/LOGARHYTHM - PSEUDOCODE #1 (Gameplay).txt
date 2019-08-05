@@ -11,7 +11,7 @@ Gameplay
 
 
 
-v1.0 (PRIMARY CODE FEATURES)
+v1.0 (PRIMARY CODE FUNCTION)
 
 THE GENERAL PROBLEM: 
 
@@ -29,9 +29,11 @@ Use the EasyTouch5 asset for faster development speed.
 
 3.) Play the stage music "once" after the Starting BEAT has been Tap and before the gameObject is destroyed.
 
-4.) Then, spawn BEATz randomly depending on the level design.
+4.) Make the Single Tap BEAT. (Refer to the PSEUDOCODE No. #2)
 
-v2.0 (SECONDARY FEATURES - This process can be skipped in the early phase of development)
+5.) Spawn them in fixed or random position depending on the level design.
+
+v2.0 (SECONDARY FUCTION - This process can be skipped in the early phase of development)
 
 THE GENERAL PROBLEM:
 
