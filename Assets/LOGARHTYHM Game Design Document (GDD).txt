@@ -1,6 +1,6 @@
 
 << GAME DESIGN DOCUMENT (GDD) >>
-
+ 
 LOGARHYTHM Game Design Document (GDD - v.2019.0)
 
 INTRODUCTION:
