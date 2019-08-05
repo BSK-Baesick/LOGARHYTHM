@@ -1,0 +1,28 @@
+
+PSEUDOCODE NO. #1
+
+SUBJECT:
+
+Starting BEAT Game Logic
+
+PROBLEM TYPE:
+
+Gameplay
+
+
+
+v1.0
+
+THE GENERAL PROBLEM: 
+
+Implementing the starting core gameplay
+
+THE SPECIFIC PROBLEM:
+
+1.) Spawn the Starting BEAT at the origin of the game world.
+
+2.) If the Starting BEAT gameObject has been Tap, then destroy the gameObject.
+
+3.) Play the stage music "once" after the Starting BEAT has been Tap and before the gameObject is destroyed.
+
+4.) Then, spawn BEATz randomly depending on the level design.
