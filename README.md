@@ -18,6 +18,7 @@ You should ask permission to me first before modifying or using this repository 
 to you if you ask politely. I am not that famous kunno, yo!
 
 Refer to the LOGARHYTHM Wiki for the Game Design Document: 
+
 LINK HERE >>> https://github.com/H1NIVyrus/LOGARHYTHM/wiki
 
 -Matthew Johannes C. Balubar
