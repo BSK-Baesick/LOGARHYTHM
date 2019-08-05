@@ -11,7 +11,7 @@ Gameplay
 
 
 
-v1.0
+v1.0 (PRIMARY CODE FEATURES)
 
 THE GENERAL PROBLEM: 
 
@@ -23,6 +23,23 @@ THE SPECIFIC PROBLEM:
 
 2.) If the Starting BEAT gameObject has been Tap, then destroy the gameObject.
 
+==NOTE==
+
+Use the EasyTouch5 asset for faster development speed.
+
 3.) Play the stage music "once" after the Starting BEAT has been Tap and before the gameObject is destroyed.
 
 4.) Then, spawn BEATz randomly depending on the level design.
+
+v2.0 (SECONDARY FEATURES - This process can be skipped in the early phase of development)
+
+THE GENERAL PROBLEM:
+
+Improving the script
+
+THE SPECIFIC PROBLEM:
+
+1.) We can still improve the script and game speed by using the asset Master Audio to instantiate the stage music once
+without worrying about the potential danger of "garbage" and "junk" memory.
+
+2.) We can choose to play the Disco FX Asset to add flair to our game after the Starting BEAT has been Tap.
