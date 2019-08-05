@@ -10,9 +10,11 @@ through music.
 TAP, SWIPE or even SMASH the BEATz according to the gesture given on the screen to earn EMOpoints. Advance through the other
 stage by finishing challenges, dethroning players along the DUEL MODE and beating bosses through music.
 
+
 COPYRIGHT:
 
 All Rights Reserved
+
 
 WARNING!
 
