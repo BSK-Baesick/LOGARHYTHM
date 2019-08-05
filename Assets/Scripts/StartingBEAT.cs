@@ -31,17 +31,21 @@ public class StartingBEAT : MonoBehaviour
         EasyTouch.On_SimpleTap -= EasyTouch_On_SimpleTap;
     }
 
-    private void EasyTouch_On_SimpleTap(Gesture gesture)
+    public void EasyTouch_On_SimpleTap(Gesture gesture)
     {
-        // Play the level soundtrack
-        if (levelSoundtrack != null)
+        // Check if we have tap the Starting BEAT
+        if (gesture.pickedObject == this.gameObject)
         {
-            var cameraPos = Camera.main.transform.position;
-            AudioSource.PlayClipAtPoint(levelSoundtrack, cameraPos);
-        }
+            // Play the level soundtrack
+            if (levelSoundtrack != null)
+            {
+                var cameraPos = Camera.main.transform.position;
+                AudioSource.PlayClipAtPoint(levelSoundtrack, cameraPos);
+            }
 
-        // Destroy this gameObject
-        Destroy(this.gameObject);
+            // Destroy this gameObject
+            Destroy(this.gameObject);
+        }
     }
 
     // Start is called before the first frame update
