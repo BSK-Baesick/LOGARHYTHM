@@ -13,14 +13,14 @@ stage by finishing challenges, dethroning players along the DUEL MODE and beatin
 
 COPYRIGHT:
 
-All Rights Reserved
+MIT License
 
+Copyright (c) 2019 Matthew Johannes C. Balubar
 
-WARNING!
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-Reproducing or using this repository in your own work to earn profit is considered ummm...STEALING---and STEALING is bad ya know? 
-You should ask permission to me first before modifying or using this repository in your own project. I am glad to lend this repository
-to you if you ask politely. I am not that famous kunno, yo!
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
 
 Refer to the LOGARHYTHM Wiki for the Game Design Document below: 
 
