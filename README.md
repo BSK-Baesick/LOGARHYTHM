@@ -25,3 +25,5 @@ to you if you ask politely. I am not that famous kunno, yo!
 Refer to the LOGARHYTHM Wiki for the Game Design Document below: 
 
 LINK HERE >>> https://github.com/H1NIVyrus/LOGARHYTHM/wiki
+
+HEARTS...BURNINGGG!
