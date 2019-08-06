@@ -9,6 +9,10 @@ PROBLEM TYPE:
 
 Gameplay
 
+DIFFICULTY:
+
+Easy
+
 
 
 v1.0 (PRIMARY CODE FUNCTION)
@@ -31,7 +35,7 @@ Use the EasyTouch5 asset for faster development speed.
 
 4.) Make the Single Tap BEAT. (Refer to the PSEUDOCODE No. #2)
 
-5.) Spawn them in fixed or random position depending on the level design.
+5.) After this gameObject has been Tap, start spawning BEATz. (Refer to the PSEUDOCODE No. #3)
 
 v2.0 (SECONDARY FUCTION - This process can be skipped in the early phase of development)
 

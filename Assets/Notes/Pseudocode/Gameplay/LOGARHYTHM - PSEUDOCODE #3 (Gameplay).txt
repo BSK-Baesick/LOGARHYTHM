@@ -1,0 +1,114 @@
+
+PSEUDOCODE No. #3
+
+SUBJECT:
+
+BEATz Spawner Game Logic
+
+PROBLEM TYPE:
+
+Gameplay
+
+DIFFICULTY:
+
+Hard
+
+
+
+v1.0 (PRIMARY CODE FUNCTION)
+
+THE GENERAL PROBLEM:
+
+Implementing a spawner system
+
+THE SPECIFIC PROBLEM:
+
+1.) Let's first break down the core parts that we will be implementing in our spawner system by answering simple questions:
+
+-What are the gameObject/s that we will spawn? How do we spawn them?
+
+-Where will we spawn these gameObject/s? Will we spawn them at fixed or in random position?
+
+-How will we spawn a "wave" of BEATz in order?
+
+2.) First, we want to spawn the BEATz once after the Starting BEAT has been Tap.
+
+==NOTE==
+
+We need to tell the Game Manager that the Starting BEAT has been tapped and the game has started.
+
+3.) Second, we want to spawn BEATz continuously in chronological order in order to control the game flow.
+
+==NOTE==
+
+Use List, Scriptable Object and Waypoints to accomplish our goal.
+
+HOW TO SPAWN BEATz in chronological order?
+
+-Make a BEATz pattern. This is a list of waypoints where the BEATz will spawn.
+
+-Make a BEAT index. This will hold a value on what number and position a BEAT will spawn before actually spawning into the scene.
+
+-Declare the transform position of the BEAT equal to the transform position of the spawn point of the first BEAT in the list at the start of the game
+
+-Map out what data will need to be in which of our scripts using scriptable objects.
+
+DATA NEEDED:
+
++ The BEATPrefab that we will be spawning
+
++ The spawnPatternPrefab which stores the spawning position of the BEAT
+
++ intervalBetweenSpawn
+
++ spawnRandomFactor
+
++ numberOfBEAT that we will spawn
+
++ delayInterval after the spawn pattern has ended
+
+-Create our BEATConfiguration script and populate it with our data variables.
+
+-Write public get methods to allow other classes to access our data.
+
+-Create a better way to return the path waypoints from our wave config using a list rather than returning the game object.
+
+-Add a new path and test.
+
+-Create BEATSpawner.cs to instantiate enemies into our scene.
+
+-Craft a continuous loop that spawns an enemy then waits for time.
+
+-Use a for loop to continue instantiating BEAT until the spawn pattern is complete.
+
+-Dig deeper into using paramaters on a public method to set our wave config.
+
+-Coroutine inception! We place a coroutine within a coroutine.
+
+-Set up multiple BEATz and multiple different spawn patterns, spawning one after another.
+
+-Turn our Start method into a coroutine.
+
+-Create a looping bool
+
+-Create a do while loop that allows us to loop all waves over and over.
+
+v2.0 (SECONDARY CODE FUCTION - This process can be skipped in the early phase of development)
+
+THE GENERAL PROBLEM:
+
+Improving the script
+
+THE SPECIFIC PROBLEM:
+
+1.) Coroutines are heavy! Use "Threading" instead.
+
+2.) Instantiating an object and destroying it when we're not using it is not an efficient way. Use "Object Pooling" instead.
+
+==NOTE==
+
+We can use either LeanPool or Pooly in pooling objects
+
+3.) Research about Scriptable objects and how can we improve it.
+
+4.) We can also use a Waypoint-specific asset in making our spawn point.

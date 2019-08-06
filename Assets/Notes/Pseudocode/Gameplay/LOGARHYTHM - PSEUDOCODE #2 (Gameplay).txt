@@ -9,6 +9,10 @@ PROBLEM TYPE:
 
 Gameplay
 
+DIFFICULTY:
+
+Easy
+
 
 
 v1.0 (PRIMARY CODE FUNCTION)

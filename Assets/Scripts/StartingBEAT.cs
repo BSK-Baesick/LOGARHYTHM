@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using HedgehogTeam.EasyTouch;
 
 /// <summary>
@@ -53,13 +51,5 @@ public class StartingBEAT : MonoBehaviour
     {
         //  Set the coordinates of the Starting BEAT at the origin of the game world.
         transform.position = new Vector2(0, 0);
-    }
-
-
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
