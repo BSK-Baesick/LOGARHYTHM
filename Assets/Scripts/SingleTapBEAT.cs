@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using HedgehogTeam.EasyTouch;
 
+/// <summary>
+/// This script handles the Single Tap BEAT game logic.
+/// </summary>
 public class SingleTapBEAT : MonoBehaviour
 {
     // Subscribe

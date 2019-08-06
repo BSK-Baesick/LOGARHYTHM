@@ -13,6 +13,10 @@ DIFFICULTY:
 
 Hard
 
+RECOMMENDATIONS:
+
+Use a Mind Mapping tool to track down the things we need to do!
+
 
 
 v1.0 (PRIMARY CODE FUNCTION)
@@ -66,6 +70,8 @@ DATA NEEDED:
 + numberOfBEAT that we will spawn
 
 + delayInterval after the spawn pattern has ended
+
++ spawnBEATInRandomPosition bool
 
 -Create our BEATConfiguration script and populate it with our data variables.
 

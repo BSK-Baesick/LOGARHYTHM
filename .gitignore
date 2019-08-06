@@ -3,3 +3,11 @@
 ################################################################################
 
 /.vs/LOGARHYTHM/v16
+/Library
+/Logs
+/obj/Debug
+/Packages
+/ProjectSettings
+/Temp
+/Assembly-CSharp.csproj
+/LOGARHYTHM.sln

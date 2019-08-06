@@ -12,6 +12,9 @@ public class StartingBEAT : MonoBehaviour
     [Header("Starting BEAT Components")]
     [SerializeField] AudioClip levelSoundtrack = null;
 
+    // Cached References
+    GameManager gameManager;
+
     // Subscribe
     private void OnEnable()
     {
@@ -41,6 +44,9 @@ public class StartingBEAT : MonoBehaviour
                 AudioSource.PlayClipAtPoint(levelSoundtrack, cameraPos);
             }
 
+            // Start the game
+            gameManager.hasThePartyStarted = true;
+
             // Destroy this gameObject
             Destroy(this.gameObject);
         }
@@ -49,6 +55,9 @@ public class StartingBEAT : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // Initialize any component references
+        gameManager = (GameManager)GetComponent(typeof(GameManager));
+
         //  Set the coordinates of the Starting BEAT at the origin of the game world.
         transform.position = new Vector2(0, 0);
     }

@@ -1,6 +1,6 @@
 
 << GAME DESIGN DOCUMENT (GDD) >>
- 
+
 LOGARHYTHM Game Design Document (GDD - v.2019.0)
 
 INTRODUCTION:
@@ -246,13 +246,6 @@ DEVELOPER/S
 DESCRIPTION:
 
 I am an avid fan of video games back when I was seven years old. My first game I've played was Paradise Island. I've also learned how to play Warcraft and DoTA I at my early childhood. I've spend my whole time playing flash games on Y8 and Friv like Gun Mayhem and Swords and Sandals. Everytime I arrived at home, I always play my favorite game, Adventure Quest instead of doing my assignments---the reason why I'm always scolded by my parents.
-
 My interest in game development started when I was in Grade 7. I started creating games at sploder.com and invest my time in learning it instead of learning how to play Twisted Fate at League of Legends. I gave up the idea of game development as things get more complicated that time.
-
 And then here we go again! My game dev juices has once again pops up into my head when I was in Grade 9. I started studying the whereabouts of game development by reading some best-selling and award-winning books related to game dev like "The Art of Game Design: A Book of Lenses" by Jesse Schell and "Blood, Sweat and Pixels" by Jason Schrieier instead of reading fictions at Wattpad. These books motivated me to push beyond my constraints. I relate games on how I live so I can beat game compulsion, and it made my life more meaningful---and fun, too.
-
-When I was Grade 11, I started experimenting on what game engine will suit me the best. I almost try every game engine available at the market starting from "no prior knowledge to programming language" game engines like Construct 3, Gamemaker, Clickteam Fusion 2.5 and the like. I also tried Renpy, RPG Maker and Unreal but they seems to be complicated and hard to learn.
-
-Then I found Brackeys on YouTube. I watched one of his video regarding on how to start with your first game. From there, Unity comes to the rescue!I bought a course at Udemy and uses my 30-days trial at Pluralsight to learn Unity as fast as I can. I learnt the basics and then I crafted my skills specifically at programming in C#, perfecting how to make a clean, efficient and garbage-free code. 
-
-My forte was programming gameplay mechanics. Up until now, I'm still resharpening my skills in programming by making games so thatI can master every single patterns and methods use by the proffesionals and triple A studios in coding scripts especially with enums, dictionaries, delegates and singleton patterns.
+When I was Grade 11, I started experimenting on what game engine will suit me the best. I almost try every game engine available at the market starting from "no prior knowledge to programming language" game engines like Construct 3, Gamemaker, Clickteam Fusion 2.5 and the like. I also tried Renpy, RPG Maker and Unreal but they seems to be complicated and hard to learn.Then I found Brackeys on YouTube. I watched one of his video regarding on how to start with your first game. From there, Unity comes to the rescue!I bought a course at Udemy and uses my 30-days trial at Pluralsight to learn Unity as fast as I can. I learnt the basics and then I crafted my skills specifically at programming in C#, perfecting how to make a clean, efficient and garbage-free code. My forte was programming gameplay mechanics. Up until now, I'm still resharpening my skills in programming by making games so thatI can master every single patterns and methods use by the proffesionals and triple A studios in coding scripts especially with enums, dictionaries, delegates and singleton patterns.
