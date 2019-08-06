@@ -10,6 +10,8 @@ public class WaveConfiguration : ScriptableObject
     [Header("BEAT Information")]
     // 1.) The BEATPrefab that we will be spawning
     [SerializeField] GameObject BEATPrefab = null;
+    // 2.) A list of spawn points where we will spawn BEATz
+    [SerializeField] GameObject spawnPattern = null;
 
     [Header("Spawning Attributes")]
     // 1.) How fast the BEATz are spawned
@@ -28,6 +30,16 @@ public class WaveConfiguration : ScriptableObject
     [SerializeField] bool loop = false;
 
     // TODO spawnPatternList which stores the spawning position of the BEAT
+    public List<Transform> GetWaypoints()
+
+    {
+        var spawnPoint = new List<Transform>();
+        foreach (Transform child in spawnPattern.transform)
+        {
+            spawnPoint.Add(child);
+        }
+        return spawnPoint;
+    }
     public GameObject GetBEATPrefab()
     {
         return BEATPrefab;
