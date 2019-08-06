@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 347230620e3f75441a4a03bbc1ac8ec4, type: 3}
+  m_Name: 'Spawn Pattern #1'
+  m_EditorClassIdentifier: 
+  BEATPrefab: {fileID: 0}
+  spawnPattern: {fileID: 0}
+  spawnRate: 1
+  spawnNumber: 1
+  delayInterval: 1
+  spawnDuration: 1
+  randomSpawn: 0
+  loop: 0
