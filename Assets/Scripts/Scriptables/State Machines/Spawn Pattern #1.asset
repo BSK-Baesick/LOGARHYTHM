@@ -12,11 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 347230620e3f75441a4a03bbc1ac8ec4, type: 3}
   m_Name: 'Spawn Pattern #1'
   m_EditorClassIdentifier: 
-  BEATPrefab: {fileID: 0}
-  spawnPattern: {fileID: 0}
-  spawnRate: 1
-  spawnNumber: 1
-  delayInterval: 1
-  spawnDuration: 1
+  BEATPrefab: {fileID: 7990816686757977962, guid: 1efdda547c3a2bd4cbeb22f9c31c46c2,
+    type: 3}
+  spawnPattern: {fileID: 8245518620672405123, guid: 7767f422b0790824c9e5d075c2235106,
+    type: 3}
+  spawnRate: 2
+  spawnNumber: 5
+  spawnDuration: 10
   randomSpawn: 0
   loop: 0
+  delay: 0
+  delayInterval: 1

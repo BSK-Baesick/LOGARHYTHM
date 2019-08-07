@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3725658431843994124}
   - component: {fileID: 3725658431843994125}
   - component: {fileID: 3725658431843994115}
-  - component: {fileID: 3725658431843994114}
+  - component: {fileID: 8480102553041947122}
   m_Layer: 0
   m_Name: Starting BEAT
   m_TagString: Untagged
@@ -94,19 +94,43 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelSoundtrack: {fileID: 8300000, guid: 7a7585967fef6124bac3c53a3190df67, type: 3}
---- !u!58 &3725658431843994114
-CircleCollider2D:
+--- !u!114 &8480102553041947122
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3725658431843994126}
   m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 1.54
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9c933eb8b407754a8f98425dfaa784f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quickActionName: QuickTap6039600
+  isMultiTouch: 0
+  is2Finger: 0
+  isOnTouch: 0
+  enablePickOverUI: 0
+  resetPhysic: 0
+  directAction: 0
+  axesAction: 0
+  sensibility: 1
+  directCharacterController: {fileID: 0}
+  inverseAxisValue: 0
+  onTap:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3725658431843994115}
+        m_MethodName: OnStartingTap
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: HedgehogTeam.EasyTouch.QuickTap+OnTap, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  actionTriggering: 0

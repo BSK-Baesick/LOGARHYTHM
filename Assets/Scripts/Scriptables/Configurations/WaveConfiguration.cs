@@ -2,10 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// This script handles all the data regarding the spawn pattern
+/// </summary>
+
 [CreateAssetMenu(menuName = "BEATz Manager")]
 public class WaveConfiguration : ScriptableObject
 {
-    
+
     // Cached References
     [Header("BEAT Information")]
     // 1.) The BEATPrefab that we will be spawning
@@ -18,9 +22,7 @@ public class WaveConfiguration : ScriptableObject
     [SerializeField] float spawnRate = 1f;
     // 2.) Number of BEAT that we will spawn
     [SerializeField] int spawnNumber = 1;
-    // 3.) Delay interval after the spawn pattern has ended
-    [SerializeField] float delayInterval = 1f;
-    // 4.)  Until when we will spawn the BEATz
+    // 3.)  Until when we will spawn the BEATz
     [SerializeField] float spawnDuration = 1f;
 
     [Header("Spawning Conditions")]
@@ -28,6 +30,10 @@ public class WaveConfiguration : ScriptableObject
     [SerializeField] bool randomSpawn = false;
     // 2.) Loop
     [SerializeField] bool loop = false;
+    // 3.) Delay at the end of the spawn pattern
+    [SerializeField] bool delay = false;
+    // 4.) Delay interval after the spawn pattern has ended (Only works if delay is toggled ON)
+    [SerializeField] float delayInterval = 1f;
 
     // TODO spawnPatternList which stores the spawning position of the BEAT
     public List<Transform> GetWaypoints()
@@ -55,11 +61,6 @@ public class WaveConfiguration : ScriptableObject
         return spawnNumber;
     }
 
-    public float GetDelayInterval()
-    {
-        return delayInterval;
-    }
-
     public float GetSpawnDuration()
     {
         return spawnDuration;
@@ -73,5 +74,15 @@ public class WaveConfiguration : ScriptableObject
     public bool GetLoop()
     {
         return loop;
+    }
+
+    public bool GetDelay()
+    {
+        return delay;
+    }
+
+    public float GetDelayInterval()
+    {
+        return delayInterval;
     }
 }
