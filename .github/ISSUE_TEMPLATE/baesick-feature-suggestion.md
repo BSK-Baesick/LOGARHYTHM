@@ -1,8 +1,8 @@
 ---
-name: 'BaeSICK Feature Suggestion: "INSERT THE FEATURE NAME HERE"'
-about: Got an idea? Don't let it get out of your head! Write it here before it gets
-  out of your head.
-title: ''
+name: BaeSICK Feature Suggestion
+about: Got an idea? Don't let it get out of your head! Write it here before it pops
+  out.
+title: 'BaeSICK Feature Suggestion: "INSERT THE FEATURE NAME HERE"'
 labels: ''
 assignees: ''
 

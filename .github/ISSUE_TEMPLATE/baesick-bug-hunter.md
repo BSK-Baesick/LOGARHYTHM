@@ -1,7 +1,7 @@
 ---
-name: 'BaeSICK Bug Hunt: "INSERT THE BUG TITLE HERE"'
-about: Let's splat the bug together by creating your report here, Bug Hunter!
-title: ''
+name: BaeSICK Bug Hunter
+about: Let's splat the bug together by creating your report here, Hunter!
+title: 'BaeSICK Bug Hunt: "INSERT THE BUG TITLE HERE"'
 labels: ''
 assignees: ''
 
