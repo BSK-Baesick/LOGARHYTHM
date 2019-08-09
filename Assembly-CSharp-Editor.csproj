@@ -84,6 +84,11 @@
     <Compile Include="Assets\Tools\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCJoystickInspector.cs" />
     <Compile Include="Assets\Tools\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCMenu.cs" />
     <Compile Include="Assets\Tools\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCTouchPadInspector.cs" />
+    <Compile Include="Assets\Tools\Ultimate Spawner\Scripts\Editor\EditorCeate.cs" />
+    <Compile Include="Assets\Tools\Ultimate Spawner\Scripts\Editor\InfiniteControllerInspector.cs" />
+    <Compile Include="Assets\Tools\Ultimate Spawner\Scripts\Editor\SpawnAreaInspector.cs" />
+    <Compile Include="Assets\Tools\Ultimate Spawner\Scripts\Editor\SpawnPointInspector.cs" />
+    <Compile Include="Assets\Tools\Ultimate Spawner\Scripts\Editor\WaveControllerInspector.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Mr. Leeds/Desktop/BaeSICK Entertainment/Game Files/Projects/PROJECT - Delta/LOGARHYTHM/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
