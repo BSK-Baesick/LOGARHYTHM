@@ -15,15 +15,16 @@ COPYRIGHT:
 
 MIT License
 
-Copyright (c) 2019 Matthew Johannes C. Balubar
+Copyright (c)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+2019 
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
+Matthew Johannes C. Balubar
 
-Refer to the LOGARHYTHM Wiki for the Game Design Document below: 
+This REPOSITORY is written by an AMATEUR WRITER. Please excuse the foul words, wrong grammings and typographical erorrs.
+
+If you want to learn more about the game, please refer to the LOGARHYTHM Wiki. 
 
 LINK HERE >>> https://github.com/H1NIVyrus/LOGARHYTHM/wiki
 
-HEARTS...BURNINGGG!
+HEEEEEAAARTS...BURNINGGG!
